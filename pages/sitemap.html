@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour.lk</title>
+    <link rel="shortcut icon" href="../images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/global.css">
+    <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
+    <link rel="stylesheet" href="../css/sitemap.css">
+</head>
+<body>
+    <!-- Adding the Navigation bar -->
+    <div id="navbar"></div> 
+    <script src="../javascript/navBar.js"></script>
+
+    <!-- Site-Map -->
+        <svg id="sitemap" width="100%" height="50rem">
+            <g id="home" class="page">
+                <circle cx="50%" cy="10rem" r="4rem"/>
+                <text x="50%" y="10rem" text-anchor="middle" dy=".3em">Home</text>
+            </g>
+            <g class="pointer">
+				<line  x1="50%" y1="14.5rem" x2="50%" y2="20rem"></line>
+			</g>
+            <g id="level-2">
+                <line id="horizontal-line" x1="10%" y1="20rem" x2="90%" y2="20rem"></line>
+                <g class="pointer">
+                    <line x1="10%" y1="20rem" x2="10%" y2="25rem"></line>
+                </g>
+
+                <g id="about" class="page">
+                    <circle cx="10%" cy="28rem" r="3rem"/>
+                    <text x="10%" y="28rem" text-anchor="middle" dy=".3em">About</text>
+                </g>
+                <g class="pointer">
+                    <line x1="90%" y1="20rem" x2="90%" y2="25rem"></line>
+                </g>
+                <g id="gallery" class="page">
+                    <circle cx="90%" cy="28rem" r="3rem"/>
+                    <text x="90%" y="28rem" text-anchor="middle" dy=".3em">Gallery</text>
+                </g>
+            </g>
+        </svg>
+
+        <script>
+            document.getElementById("home").
+            addEventListener("click", function() {
+                document.location.href="../index.html";
+        });
+            document.getElementById("gallery").
+            addEventListener("click", function() {
+                document.location.href="gallery.html";
+        });
+        document.getElementById("about").
+            addEventListener("click", function() {
+                document.location.href="about.html";
+        });
+        
+        </script>
+        <script src="../javascript/scrollTopBtn.js"></script>
+</body>
+</html>
