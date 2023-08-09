@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+}
+img{
+    width:200px;
+    border-radius: 100%;
+}
+#myDetails{
+    padding: 2rem;
+    background-color: #F9F7F7;
+}
+.task{
+    padding: 1rem;
+    width: 53%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-task{
+    padding: 2rem;
+    background-color: #DBE2EF;
+    padding: 2rem;
+}
+.additional-task{
+    background-color: #3F72AF;
+    color: rgb(232, 232, 232);
+    padding: 2rem;
+}
+.additional-task a{
+    color: rgb(245, 189, 255);
+}

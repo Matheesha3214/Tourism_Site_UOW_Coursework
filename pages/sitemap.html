@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour.lk</title>
+    <link rel="shortcut icon" href="../images/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/sitemap.css">
+</head>
+<body>
+    <!-- Adding the Navigation bar -->
+    <div id="navbar">
+        <nav class="navbar">
+            <div class="navbar-brand">
+              <img src="../images/iconwhite.ico" alt=""> Tour.lk</div>
+            <div class="menu">
+                <a href="../index.html" class="navbar-link home">Home</a>
+                <a href="shop.html" class="navbar-link about">Shop</a>
+                <a href="comment.html" class="navbar-link about">Comments</a>
+                <a href="quiz.html" class="navbar-link about">Quiz</a>
+                <a href="about.html" class="navbar-link about">About</a>
+                <a href="sitemap.html" class="navbar-link sitemap">Site-Map</a>
+                <a href="gallery.html" class="navbar-link gallery">Gallery</a>
+            </div>
+          </nav>
+    </div> 
+
+    <!-- Site-Map SVG -->
+        <svg id="sitemap" width="100%" height="50rem">
+            <!-- level-1 -->
+            <!-- presentation page -->
+            <g id="presentation" class="page">
+                <circle cx="50%" cy="10rem" r="4rem"/>
+                <text x="50%" y="10rem" text-anchor="middle" dy=".3em">Presentation</text>
+            </g>
+            <g class="pointer">
+				<line  x1="50%" y1="14.5rem" x2="50%" y2="20rem"></line>
+			</g>
+            <!-- level-2 -->
+            <g id="level-2">
+                <line id="horizontal-line" x1="10%" y1="20rem" x2="90%" y2="20rem"></line>
+
+                <g class="pointer">
+                    <line x1="10%" y1="20rem" x2="10%" y2="25rem"></line>
+                </g>
+                <g id="home" class="page">
+                    <circle cx="10%" cy="28rem" r="3rem"/>
+                    <text x="10%" y="28rem" text-anchor="middle" dy=".3em">Home</text>
+                </g>
+
+                <g class="pointer">
+                    <line x1="90%" y1="20rem" x2="90%" y2="25rem"></line>
+                </g>
+                <g id="gallery" class="page">
+                    <circle cx="90%" cy="28rem" r="3rem"/>
+                    <text x="90%" y="28rem" text-anchor="middle" dy=".3em">Gallery</text>
+                </g>
+
+                <g class="pointer">
+                    <line x1="23.3%" y1="20rem" x2="23.3%" y2="25rem"></line>
+                </g>
+                <g id="shop" class="page">
+                    <circle cx="23.3%" cy="28rem" r="3rem"/>
+                    <text x="23.3%" y="28rem" text-anchor="middle" dy=".3em">Shop</text>
+                </g>
+
+                <g class="pointer">
+                    <line x1="36.6%" y1="20rem" x2="36.6%" y2="25rem"></line>
+                </g>
+                <g id="comments" class="page">
+                    <circle cx="36.6%" cy="28rem" r="3rem"/>
+                    <text x="36.6%" y="28rem" text-anchor="middle" dy=".3em">Comments</text>
+                </g>
+
+                <g class="pointer">
+                    <line x1="49.9%" y1="20rem" x2="49.9%" y2="25rem"></line>
+                </g>
+                <g id="quiz" class="page">
+                    <circle cx="49.9%" cy="28rem" r="3rem"/>
+                    <text x="49.9%" y="28rem" text-anchor="middle" dy=".3em">Quiz</text>
+                </g>
+
+                <g class="pointer">
+                    <line x1="63.2%" y1="20rem" x2="63.2%" y2="25rem"></line>
+                </g>
+                <g id="about" class="page">
+                    <circle cx="63.2%" cy="28rem" r="3rem"/>
+                    <text x="63.2%" y="28rem" text-anchor="middle" dy=".3em">About</text>
+                </g>
+                
+                <g class="pointer">
+                    <line x1="76.8%" y1="20rem" x2="76.8%" y2="25rem"></line>
+                </g>
+                <g id="site-map" class="page">
+                    <circle cx="76.8%" cy="28rem" r="3rem"/>
+                    <text x="76.8%" y="28rem" text-anchor="middle" dy=".3em">Site-Map</text>
+                </g>
+            </g>
+            <!-- level-3 -->
+            <g id="level-3">
+                <g class="pointer">
+                    <line x1="10%" y1="31rem" x2="10%" y2="35rem"></line>
+                </g>
+                <g id="costCal" class="page">
+                    <circle cx="10%" cy="39rem" r="4rem"/>
+                    <text x="10%" y="39rem" text-anchor="middle" dy=".3em">Cost-Calculator</text>
+                </g>
+            </g>
+        </svg>
+
+        <!-- Footer -->
+        <footer id="globalFooter">
+            <div class="footer-content">
+                <div class="company-details">
+                    <img src="../images/icon.ico" alt="icon">
+                    <img src="../images/iconwhite.ico" alt="icon">
+                    <h2>Tour.lk</h2>
+                    <p>Unlock The Treasures of Sri Lanka</p>
+                </div>
+                <div class="footer-details">
+                    <img src="../images/logo.png" alt="logo">
+                    <div>
+                        <h2>Contact Us</h2>
+                        <p>📞: +94-5342135
+                            <br><br> 📧: tourlk@gmail.com
+                        </p>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="sitemap.html">Site-Map</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <input id="pageEditorBtn" type="button" value="Page Editor">
+                </div>
+                <script>
+                    document.getElementById("pageEditorBtn").addEventListener("click", () => {
+                        window.location.href = "student4.html";
+                    });
+                </script>
+            </div>
+            <div class="dev-details">
+                <p>Copyright &copy; 2023 Designed by <a href="student4.html">Page Editor</a></p>
+            </div>
+    </footer>
+
+    <script src="../javascript/scrollTopBtn.js"></script>
+    <script src="../javascript/navBar.js"></script>
+    <script src="../javascript/sitemap.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* Hero Section */
+.hero-bg{
+    background-color: #262A56;
+    background-image: url("../images/pineapple-cut.png");
+    height: 250px;
+    width: 100%;
+}
+.hero-text{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    left: 50%;
+    height: 250px;
+    margin-top: 10rem;
+    transform: translate(-50%, -50%);
+}
+.hero-title{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.font-max{
+    font-size: 3rem;
+}
+
+.instruction-title{
+    margin: 4rem;
+}
+
+/* Cost Calculator Section */
+.cost-calculate-form{
+    padding: 2rem;
+    background-image: url('../images/food.png');
+}
+form {
+    background-color: rgba(238, 238, 238, 0.7);
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  form h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  form input[type="number"]{
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+  }
+  form input[type="number"]:focus, form input[type="checkbox"]:focus, form select:focus {
+    filter: drop-shadow(0 0 5px rgb(39, 192, 189));
+    border: 1px solid #cccccc;
+  }
+  
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 16px;
+  }
+
+form .btn-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+form input[type="button"] {
+    margin-top: 2rem;
+    padding: 10px;
+    background-color: #03C988;
+    color: #FFFBE9;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+form input[type="button"]:hover {
+    background-color: #1C82AD;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+}
+  
+form span.error-message {
+    color: #ff0000;
+    font-size: 0.9rem;
+    margin-top: 12px;
+    font-style: italic;
+    margin-left: 3rem;
+    font-family: sans-serif;
+  }
+  
+form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
+.calculate-cost-form{
+    margin: 4rem;
+    border: 1px solid #262A56;
+    padding: 2rem;
+}
+.location, .main-details{
+    padding: 3rem;
+}
+.location{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+}
+.location .item{
+    display: grid;
+    grid-template-columns: repeat(2, 9rem);
+    align-items: center;
+    justify-content: center;
+}
+.main-details{
+    display: flex;
+    flex-direction: column;
+}
+.main-details .item{
+    display: grid;
+    grid-template-columns: repeat(2, 20rem);
+    margin: 1rem;
+}
+
+/* Result Cost Section  */
+.result-cost{
+    margin: 4rem;
+    border: 1px solid #262A56;
+    padding: 2rem;
+    text-align: center;
+    display: none;
+}
+  .result-cost #cost{
+    color: green;
+}

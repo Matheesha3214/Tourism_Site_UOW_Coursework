@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+body{
+    background-image: url(../images/subtle-grey.png);
+    background-repeat: repeat;
+    background-color: rgb(21, 21, 21);
+}
+#navbar .menu .sitemap{
+    font-size: 1.5rem;
+    color:rgb(166, 211, 225);
+    border: 1px solid gray;
+    padding: 0.2rem;
+    border-radius: 10px;
+}
+#sitemap circle{
+    fill:rgba(52, 153, 180, 0.4);
+    stroke:#5ca7ca;
+    stroke-width: 5px;
+}
+#sitemap text{
+    fill:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+#sitemap .page:hover{
+    filter:drop-shadow(0 0 1rem #5ca7ca);
+    cursor:pointer;
+}
+.pointer,#level-2 line{
+    stroke: #5ca7ca;
+    stroke-width: 3.5;
+    fill: #5ca7ca;
+}
+
+#sitemap #site-map circle{
+    fill:rgba(180, 52, 52, 0.4);
+    stroke:#ca5c5c;
+    stroke-width: 5px;
+}
+#sitemap #site-map:hover{
+    filter:drop-shadow(0 0 1rem #ca5c5c);
+    cursor:pointer;
+}
